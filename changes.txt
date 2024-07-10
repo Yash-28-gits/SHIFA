@@ -1,0 +1,9 @@
+changes:
+remove that number thing from about
+remove the footer from all tabs n let it remain only in home and contact tab
+make bullet points of about shifa
+adjust the spacing
+in about.html change the pictures and add the writeup
+change the image to smaller size
+home above the numbers add coverage heading 
+add photo slider in coverage heading

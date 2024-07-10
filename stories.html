@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
@@ -71,7 +72,7 @@
                                     <li><a href="About.html">About</a></li>
                                     <li><a href="intervention.html">Interventions </a>
                                     </li>
-                                    <li><a href="#">Stories </a></li>
+                                    <li><a href="stories.html">Stories </a></li>
                                     <li><a href="#">Resources </a>
                                         <!--  <ul class="submenu">
                                             <li><a href="elements.html">elements</a></li>
@@ -95,51 +96,88 @@
 </header>
 <!-- header-end -->
 
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-lg-6">
-            <div class="section_title text-center mb-55">
-                <h3><span>Gallery</span></h3>
-                
-            </div>
-        </div>
-    </div>
-</div>
-    
-    <div class="card" style="width: 35rem;">
-        <img class="card-img-top" src="m.png" alt="Card image cap">
-        
-      </div>
-      <div class="card" style="width: 35rem;">
-        <img class="card-img-top" src="n.png" alt="Card image cap">
-        
-      </div>
-
-   
-
-     <!-- footer_start  -->
-    <footer class="footer">
-        <div class="footer_top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-4 col-md-6 col-lg-4 ">
-                        <div class="footer_widget">
-                            <div class="footer_logo">
-                                <a href="#">
-                                    <img src="shifa.jpg" alt="" style="max-height: 400px; max-width: 300px; border-radius: 25px;">
-                                </a>
-                            </div>
-                            <p class="address_text">Empowering Communities,  <br> Transforming Lives <br> 
-                            </p>
-                            
-
-                        </div>
+    <!-- bradcam_area_start  -->
+    <div class="bradcam_area breadcam_bg overlay d-flex align-items-center justify-content-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="bradcam_text text-center">
+                        <h3>About US</h3>
                     </div>
-                   
-                   
                 </div>
             </div>
         </div>
+    </div>
+    <!-- bradcam_area_end  -->
+
+    
+    
+      <!-- approach_area_start  -->
+    <div class="reson_area section_padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section_title text-center mb-55">
+                        <h3><span>Impact Stories</span></h3>
+                        <h4><span>Some Stories</span></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="shifa.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Investing in Task-Shifting role by lay health worker to overcoming the gap of
+                    professional health worker.</p>
+                
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="shifa.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Strengthening local potential through culturally appropriate means for
+                        People and families with lived experience to recognize that they are the
+                        “Experts of their Own Care”!</p>
+                    
+                 </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="shifa.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text">Building continuum of care through home based psychosocial support,
+                        project facilitate about the importance of treatment, mental health literacy,
+                        managing behavior, etc. And also explore the possibilities of establishing
+                        meaningful and gainful Livelihood connection.</p>
+                    
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="shifa.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text">Create Community Conscientization by addressing determinant of mental
+                        health by use of thematic based pictorial flash cards and other IEC tool.</p>
+                    
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="shifa.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text">Community organization and leadership development so that project
+                        ownership would be build built.</p>
+                    </div>
+                  
+
+              
+            </div>
+        </div>
+    </div>
+    <!-- approach_area_end  -->
+
+   
+
+
+    
+
+     
         <div class="copy-right_text">
             <div class="container">
                 <div class="row">
@@ -156,6 +194,8 @@
         </div>
     </footer>
     <!-- footer_end  -->
+
+    <!-- link that opens popup -->
 
     <!-- JS here -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
@@ -176,7 +216,6 @@
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/gijgo.min.js"></script>
-
     <!--contact js-->
     <script src="js/contact.js"></script>
     <script src="js/jquery.ajaxchimp.min.js"></script>
@@ -185,23 +224,7 @@
     <script src="js/mail-script.js"></script>
 
     <script src="js/main.js"></script>
-    <script>
-        $('.datepicker').datepicker({
-            iconsLibrary: 'fontawesome',
-            icons: {
-                rightIcon: '<span class="fa fa-calendar"></span>'
-            }
-        });
-
-        $('.timepicker').timepicker({
-            iconsLibrary: 'fontawesome',
-            icons: {
-                rightIcon: '<span class="fa fa-clock-o"></span>'
-            }
-        });
-    $(document).ready(function() {
-    $('.js-example-basic-multiple').select2();
-});
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
+
 </html>
